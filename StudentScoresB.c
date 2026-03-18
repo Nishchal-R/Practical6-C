@@ -4,7 +4,7 @@
    @Nishchal Ranjitkar*/
 
 #include <stdio.h>
-#define NUM_STUDENTS 5
+#define NUM_STUDENTS 10
 
 int main() {
     int scores[NUM_STUDENTS];
