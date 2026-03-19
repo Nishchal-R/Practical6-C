@@ -1,5 +1,5 @@
 /* StudentScoresB.c
-   Practical 6, Part 1(b)
+   Practical 6, Part 1(c)
    Using constants for array size
    @Nishchal Ranjitkar*/
 
@@ -10,16 +10,16 @@ int main() {
     int scores[NUM_STUDENTS];
     int sum=0;
     double average;
-    int maxScore=scores[0];
-    int maxIndex=0;
-    int minScore=scores[0];
-    int minIndex=0;
     
     printf("Enter %d student scores:\n", NUM_STUDENTS);
     for(int i=0; i<NUM_STUDENTS; i++){
         printf("Score %d: ", i + 1);
         scanf("%d", &scores[i]);
     }
+    int maxScore=scores[0];
+    int maxIndex=0;
+    int minScore=scores[0];
+    int minIndex=0;
     
     for(int i=0; i<NUM_STUDENTS; i++){
         sum+=scores[i];
